@@ -8,6 +8,15 @@
       "locked_code": false,
       "registry_name": "glass_recipe",
       "path": "~/Other Improvments/Recipes"
+    },
+    {
+      "name": "CookedEgg",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_egg",
+      "path": "~/Food/Recipes"
     }
   ],
   "variable_elements": [],
@@ -40,6 +49,19 @@
           },
           {
             "name": "Items",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Food",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Texures",
             "children": []
           }
         ]

@@ -1,0 +1,20 @@
+{
+  "_fv": 27,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 0.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "Items.EGG"
+    },
+    "smokingReturnStack": {
+      "value": "Items.EGG"
+    },
+    "name": "cooked_egg",
+    "namespace": "mod"
+  }
+}
