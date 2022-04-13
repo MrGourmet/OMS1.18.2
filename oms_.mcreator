@@ -10,7 +10,20 @@
     "children": [
       {
         "name": "Metals",
-        "children": []
+        "children": [
+          {
+            "name": "Crafts",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
       }
     ]
   },
