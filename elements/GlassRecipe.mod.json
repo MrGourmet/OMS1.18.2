@@ -1,0 +1,20 @@
+{
+  "_fv": 27,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 0.2,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "glass_recipe",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.SAND"
+    },
+    "blastingReturnStack": {
+      "value": "Blocks.GLASS"
+    },
+    "name": "glass_recipe",
+    "namespace": "minecraft"
+  }
+}

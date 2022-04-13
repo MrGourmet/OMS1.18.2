@@ -1,5 +1,15 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "GlassRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_recipe",
+      "path": "~/Other Improvments/Recipes"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {

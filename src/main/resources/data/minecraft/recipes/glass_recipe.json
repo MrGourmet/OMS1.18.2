@@ -1,0 +1,10 @@
+{
+  "group": "glass_recipe",
+  "type": "minecraft:blasting",
+  "experience": 0.2,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "minecraft:sand"
+  },
+  "result": "minecraft:glass"
+}
