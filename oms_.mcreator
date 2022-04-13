@@ -11,6 +11,15 @@
       {
         "name": "Metals",
         "children": []
+      },
+      {
+        "name": "Other Improvments",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
       }
     ]
   },
