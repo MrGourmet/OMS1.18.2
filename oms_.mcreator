@@ -9,18 +9,27 @@
     "name": "~",
     "children": [
       {
+        "name": "Other Improvments",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      },
+      {
         "name": "Metals",
         "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
           {
             "name": "Crafts",
             "children": []
           },
           {
             "name": "Items",
-            "children": []
-          },
-          {
-            "name": "Blocks",
             "children": []
           }
         ]
