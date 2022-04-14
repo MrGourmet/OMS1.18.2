@@ -17,12 +17,23 @@
       "locked_code": false,
       "registry_name": "cooked_egg",
       "path": "~/Food/Recipes"
+    },
+    {
+      "name": "Cookedegg2",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookedegg_2",
+      "path": "~/Food"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.oms_.cookedegg_2": "Cooked Egg"
+    }
   },
   "foldersRoot": {
     "name": "~",
