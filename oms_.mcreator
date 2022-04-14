@@ -107,6 +107,10 @@
       {
         "name": "Code",
         "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
       }
     ]
   },
