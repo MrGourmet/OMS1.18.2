@@ -1,0 +1,28 @@
+{
+  "_fv": 27,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_egg",
+    "customModelName": "Normal",
+    "name": "Cooked Egg",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Just Cooked Egg =)"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 2,
+    "saturation": 0.3,
+    "eatingSpeed": 30,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

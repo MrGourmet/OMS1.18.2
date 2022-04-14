@@ -8,12 +8,23 @@
       "locked_code": false,
       "registry_name": "glass_recipe",
       "path": "~/Other Improvments/Recipes"
+    },
+    {
+      "name": "Cookedegg2",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookedegg_2",
+      "path": "~/Food"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.oms_.cookedegg_2": "Cooked Egg"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -49,10 +60,6 @@
         "children": [
           {
             "name": "Recipes",
-            "children": []
-          },
-          {
-            "name": "Items",
             "children": []
           }
         ]
