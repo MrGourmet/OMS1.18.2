@@ -10,20 +10,56 @@
       "path": "~/Other Improvments/Recipes"
     },
     {
-      "name": "Cookedegg2",
+      "name": "CookedEgg",
       "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_egg",
+      "path": "~/Food/items"
+    },
+    {
+      "name": "CookedEggRecipe",
+      "type": "recipe",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cookedegg_2",
-      "path": "~/Food"
+      "registry_name": "cooked_egg_recipe",
+      "path": "~/Food/Recipes"
+    },
+    {
+      "name": "CookedFleshEatenProcedure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_flesh_eaten_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code"
+    },
+    {
+      "name": "CookedFlesh",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_flesh",
+      "path": "~/Food/items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.oms_.cookedegg_2": "Cooked Egg"
+      "item.oms_.cooked_egg": "Cooked Egg",
+      "item.oms_.cooked_flesh": "Cooked Flesh"
     }
   },
   "foldersRoot": {
@@ -61,8 +97,16 @@
           {
             "name": "Recipes",
             "children": []
+          },
+          {
+            "name": "items",
+            "children": []
           }
         ]
+      },
+      {
+        "name": "Code",
+        "children": []
       }
     ]
   },

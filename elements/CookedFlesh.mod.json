@@ -3,26 +3,27 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "cooked_egg",
+    "texture": "cooked_flesh",
     "customModelName": "Normal",
-    "name": "Cooked Egg",
+    "name": "Cooked Flesh",
     "rarity": "COMMON",
-    "specialInfo": [
-      "Just Cooked Egg =)"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
-    "stackSize": 16,
-    "nutritionalValue": 2,
+    "stackSize": 64,
+    "nutritionalValue": 3,
     "saturation": 0.3,
-    "eatingSpeed": 30,
+    "eatingSpeed": 36,
     "resultItem": {
       "value": ""
     },
-    "forDogs": false,
+    "forDogs": true,
     "isAlwaysEdible": false,
     "animation": "eat",
-    "hasGlow": false
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CookedFleshEatenProcedure"
+    }
   }
 }
