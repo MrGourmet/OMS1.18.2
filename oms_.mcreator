@@ -10,24 +10,6 @@
       "path": "~/Other Improvments/Recipes"
     },
     {
-      "name": "CookedEgg",
-      "type": "food",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_egg",
-      "path": "~/Food/items"
-    },
-    {
-      "name": "CookedEggRecipe",
-      "type": "recipe",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_egg_recipe",
-      "path": "~/Food/Recipes"
-    },
-    {
       "name": "CookedFleshEatenProcedure",
       "type": "procedure",
       "sortid": 4,
@@ -43,24 +25,12 @@
         ]
       },
       "path": "~/Code"
-    },
-    {
-      "name": "CookedFlesh",
-      "type": "food",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_flesh",
-      "path": "~/Food/items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.oms_.cooked_egg": "Cooked Egg",
-      "item.oms_.cooked_flesh": "Cooked Flesh"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
@@ -92,19 +62,6 @@
         ]
       },
       {
-        "name": "Food",
-        "children": [
-          {
-            "name": "Recipes",
-            "children": []
-          },
-          {
-            "name": "items",
-            "children": []
-          }
-        ]
-      },
-      {
         "name": "Code",
         "children": []
       },
@@ -131,5 +88,5 @@
     "modElementsPackage": "net.mcreator.oms",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200115515
+  "mcreatorVersion": 202200119518
 }
