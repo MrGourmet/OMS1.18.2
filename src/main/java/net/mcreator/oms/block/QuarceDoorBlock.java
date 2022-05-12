@@ -62,6 +62,7 @@ public class QuarceDoorBlock extends DoorBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(OmsModBlocks.QUARCE_DOOR.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(OmsModBlocks.QUARCE_DOOR.get(), renderType -> renderType == RenderType.translucent());
 	}
+
 }
