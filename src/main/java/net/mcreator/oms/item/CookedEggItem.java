@@ -1,14 +1,11 @@
 
 package net.mcreator.oms.item;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import javax.annotation.Nullable;
 
 public class CookedEggItem extends Item {
+
 	public CookedEggItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(16).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.6f)
@@ -25,4 +22,5 @@ public class CookedEggItem extends Item {
 	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 		return 0F;
 	}
+
 }

@@ -10,6 +10,15 @@
       "path": "~/Other Improvments/Recipes"
     },
     {
+      "name": "CookedEgg",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_egg",
+      "path": "~/Food/items"
+    },
+    {
       "name": "CookedEggRecipe",
       "type": "recipe",
       "sortid": 3,
@@ -34,15 +43,6 @@
         ]
       },
       "path": "~/Code"
-    },
-    {
-      "name": "CookedEgg",
-      "type": "item",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_egg",
-      "path": "~/Food/items"
     },
     {
       "name": "CookedFlesh",
@@ -75,6 +75,14 @@
     "name": "~",
     "children": [
       {
+        "name": "Code",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
         "name": "Other Improvments",
         "children": [
           {
@@ -99,27 +107,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Food",
-        "children": [
-          {
-            "name": "Recipes",
-            "children": []
-          },
-          {
-            "name": "items",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Code",
-        "children": []
-      },
-      {
-        "name": "Structures",
-        "children": []
       }
     ]
   },
@@ -140,5 +127,5 @@
     "modElementsPackage": "net.mcreator.oms",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200119518
+  "mcreatorVersion": 202200115515
 }
