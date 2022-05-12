@@ -10,15 +10,6 @@
       "path": "~/Other Improvments/Recipes"
     },
     {
-      "name": "CookedEgg",
-      "type": "food",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_egg",
-      "path": "~/Food/items"
-    },
-    {
       "name": "CookedEggRecipe",
       "type": "recipe",
       "sortid": 3,
@@ -45,13 +36,30 @@
       "path": "~/Code"
     },
     {
+      "name": "CookedEgg",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_egg",
+      "path": "~/Food/items"
+    },
+    {
       "name": "CookedFlesh",
-      "type": "food",
-      "sortid": 5,
+      "type": "item",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_flesh",
       "path": "~/Food/items"
+    },
+    {
+      "name": "QuarceDoor",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarce_door"
     }
   ],
   "variable_elements": [],
@@ -59,7 +67,8 @@
   "language_map": {
     "en_us": {
       "item.oms_.cooked_egg": "Cooked Egg",
-      "item.oms_.cooked_flesh": "Cooked Flesh"
+      "item.oms_.cooked_flesh": "Cooked Flesh",
+      "block.oms_.quarce_door": "Quarce Door"
     }
   },
   "foldersRoot": {
@@ -131,5 +140,5 @@
     "modElementsPackage": "net.mcreator.oms",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200115515
+  "mcreatorVersion": 202200119518
 }

@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.oms.init.OmsModItems;
+import net.mcreator.oms.init.OmsModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,7 +45,7 @@ public class OmsMod {
 	public OmsMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		OmsModBlocks.REGISTRY.register(bus);
 		OmsModItems.REGISTRY.register(bus);
 
 	}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "oms_:blocks/2222",
+    "top": "oms_:blocks/iron_door_top"
+  }
+}
