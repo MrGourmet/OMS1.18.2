@@ -15,8 +15,7 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cooked_egg",
-      "path": "~/Food/items"
+      "registry_name": "cooked_egg"
     },
     {
       "name": "CookedEggRecipe",
@@ -24,8 +23,7 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cooked_egg_recipe",
-      "path": "~/Food/Recipes"
+      "registry_name": "cooked_egg_recipe"
     },
     {
       "name": "CookedFleshEatenProcedure",
@@ -50,8 +48,7 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cooked_flesh",
-      "path": "~/Food/items"
+      "registry_name": "cooked_flesh"
     },
     {
       "name": "QuarceDoor",
