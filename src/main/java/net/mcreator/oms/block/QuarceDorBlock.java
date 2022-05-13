@@ -27,14 +27,14 @@ import net.mcreator.oms.init.OmsModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class QuarceDoorBlock extends DoorBlock {
-	public QuarceDoorBlock() {
+public class QuarceDorBlock extends DoorBlock {
+	public QuarceDorBlock() {
 		super(BlockBehaviour.Properties.of(Material.GLASS)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.glass.break")),
 						() -> new SoundEvent(new ResourceLocation("block.metal.step")),
 						() -> new SoundEvent(new ResourceLocation("block.iron_door.open")),
 						() -> new SoundEvent(new ResourceLocation("block.glass.hit")),
-						() -> new SoundEvent(new ResourceLocation("block.metal.step"))))
+						() -> new SoundEvent(new ResourceLocation("block.metal.fall"))))
 				.strength(3.5f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -62,6 +62,7 @@ public class QuarceDoorBlock extends DoorBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(OmsModBlocks.QUARCE_DOOR.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(OmsModBlocks.QUARCE_DOR.get(), renderType -> renderType == RenderType.translucent());
 	}
+
 }

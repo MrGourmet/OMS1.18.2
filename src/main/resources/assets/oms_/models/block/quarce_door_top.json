@@ -1,7 +1,7 @@
 {
   "parent": "block/door_top",
   "textures": {
-    "bottom": "oms_:blocks/ban1",
-    "top": "oms_:blocks/ban2"
+    "bottom": "oms_:blocks/2222",
+    "top": "oms_:blocks/iron_door_top"
   }
 }

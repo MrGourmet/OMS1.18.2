@@ -57,6 +57,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "quarce_door"
+    },
+    {
+      "name": "QuarceDor",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarce_dor"
     }
   ],
   "variable_elements": [],
@@ -65,7 +73,8 @@
     "en_us": {
       "item.oms_.cooked_egg": "Cooked Egg",
       "item.oms_.cooked_flesh": "Cooked Flesh",
-      "block.oms_.quarce_door": "Quarce Door"
+      "block.oms_.quarce_door": "Quarce Door",
+      "block.oms_.quarce_dor": "Quarce Dor"
     }
   },
   "foldersRoot": {
@@ -124,5 +133,5 @@
     "modElementsPackage": "net.mcreator.oms",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200115515
+  "mcreatorVersion": 202200119518
 }

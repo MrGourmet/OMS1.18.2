@@ -2,8 +2,8 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "2222",
-    "textureTop": "iron_door_top",
+    "texture": "quarce_door_niz",
+    "textureTop": "quarce_door_top",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Quarce Door",
+    "name": "Quarce Dor",
     "specialInfo": [],
     "hardness": 3.5,
     "resistance": 10.0,
@@ -78,13 +78,13 @@
     "isNotColidable": false,
     "isCustomSoundType": true,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": "block.glass.break"
     },
     "fallSound": {
-      "value": "block.metal.step"
+      "value": "block.metal.fall"
     },
     "hitSound": {
       "value": "block.glass.hit"

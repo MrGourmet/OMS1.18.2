@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "oms_:blocks/quarce_door_niz",
+    "top": "oms_:blocks/quarce_door_top"
+  }
+}
