@@ -14,21 +14,18 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.oms.block.QuarceDorBlock;
 import net.mcreator.oms.block.QuarceDoorBlock;
 import net.mcreator.oms.OmsMod;
 
 public class OmsModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, OmsMod.MODID);
 	public static final RegistryObject<Block> QUARCE_DOOR = REGISTRY.register("quarce_door", () -> new QuarceDoorBlock());
-	public static final RegistryObject<Block> QUARCE_DOR = REGISTRY.register("quarce_dor", () -> new QuarceDorBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			QuarceDoorBlock.registerRenderLayer();
-			QuarceDorBlock.registerRenderLayer();
 		}
 	}
 }

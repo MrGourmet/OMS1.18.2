@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "oms_:quarce_door",
-    "oms_:quarce_dor"
+    "oms_:quarce_door"
   ]
 }

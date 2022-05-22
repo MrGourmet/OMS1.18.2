@@ -22,7 +22,6 @@ public class OmsModItems {
 	public static final RegistryObject<Item> COOKED_EGG = REGISTRY.register("cooked_egg", () -> new CookedEggItem());
 	public static final RegistryObject<Item> COOKED_FLESH = REGISTRY.register("cooked_flesh", () -> new CookedFleshItem());
 	public static final RegistryObject<Item> QUARCE_DOOR = doubleBlock(OmsModBlocks.QUARCE_DOOR, CreativeModeTab.TAB_REDSTONE);
-	public static final RegistryObject<Item> QUARCE_DOR = doubleBlock(OmsModBlocks.QUARCE_DOR, CreativeModeTab.TAB_REDSTONE);
 
 	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties().tab(tab)));
