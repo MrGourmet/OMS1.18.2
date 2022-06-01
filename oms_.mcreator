@@ -111,6 +111,10 @@
           {
             "name": "Items",
             "children": []
+          },
+          {
+            "name": "Armor",
+            "children": []
           }
         ]
       }
