@@ -65,6 +65,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "quarce_dor"
+    },
+    {
+      "name": "IronGlassDoorRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_glass_door_recipe"
     }
   ],
   "variable_elements": [],
